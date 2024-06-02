@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+
+.bg-hero-gradient {
+  border: 1px solid;
+  border-image-source: linear-gradient(
+    180deg,
+    rgba(232, 232, 232, 0.5) 0.05%,
+    rgba(254, 254, 254, 0.4) 99.95%
+  );
+}
+
+.shadow-custom {
+  box-shadow: 0px 0px 10px 5px #0000000d;
+}
+
+.custom-btn-border {
+  border: 0.78px solid #ff6f421f;
+}
+.plan-bg {
+  border: 1px solid;
+
+  border-image-source: linear-gradient(
+    109.25deg,
+    rgba(255, 111, 66, 0.15) -6.82%,
+    rgba(255, 111, 66, 0.05) 49.71%,
+    rgba(255, 111, 66, 0.25) 106.24%
+  );
+}
+
+.shadow-custom {
+  box-shadow: 0px 3px 6px 0px #2727271a;
+}
+
+.plan-bg-grad-card {
+  background: #7b7b7b0d;
+}
+
+.testimonial-gradient {
+  background: linear-gradient(
+    135deg,
+    rgba(238, 238, 238, 0.03) 0%,
+    rgba(255, 197, 179, 0.2) 100%
+  );
+
+  border: 1px solid rgba(255, 91, 40, 0.3835);
+}
+
+.input-shadow {
+  box-shadow: 0px 0px 25px 0px #ffffff0d inset;
+
+  box-shadow: 0px 0px 5px 0px #0000000d;
+}
+
+@tailwind utilities;
